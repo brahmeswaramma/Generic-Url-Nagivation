@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  button
+    {
+        background-color: aqua;
+        color:crimson;
+        height: 40px;
+        width:100px;
+        border-radius: 40px;
+    }
+    button>a:
+    {
+        color:crimson;
+    }
+</style>
+<body>
+    <center>
+        <h1>Generic Url Nagivation</h1>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            
+          
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSafWdj-FnqYaD1OdVa7oGUkG2kKIcutj__hwQ7Vn37IA&s" height="500px" width="500px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Einstein</h2>
+                  <p>Einstein is best known for his theory of general relativity, which he first published in 1915.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://previews.123rf.com/images/blueringmedia/blueringmedia2203/blueringmedia220301316/183098746-isaac-newton-sitting-under-apple-tree-illustration.jpg" height="500px" width="500px"class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Newton</h2>
+                  <p>Isaac Newton: The Father of Modern Physics.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://images.saymedia-content.com/.image/t_share/MTc1Nzg1MTc0NDUyMzQ3OTU5/galileo-galilei-discovers-the-moons-of-jupiter-and-the-phase-of-venus.jpg" height="500px" width="500px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Galileo Gelili</h2>
+                  <p>Albert Einstein called Galileo the “father of modern science.</p>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <button><a href="{% url 'nature' %}">Click here</a></button>
+    </center>
+</body>
+</html>

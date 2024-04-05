@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    button
+    {
+        background-color: aqua;
+        color:crimson;
+        height: 40px;
+        width:100px;
+        border-radius: 40px;
+    }
+    button>a:
+    {
+        color:crimson;
+    }
+</style>
+<body>
+    <center>
+        <h1>Generic Url Nagivation</h1>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg" height="500px" width="500px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Smile</h2>
+                  <p>“Nature is the purest portal to inner-peace.”</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS24H_gJC_5sVPEKBBXFYgKilqPzgL63erp2iKvvW5PyQ&s" height="500px" width="500px"class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Perfect</h2>
+                  <p>“The richness I achieve comes from nature, the source of my inspiration.” — Claude Monet.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjWLbw0xDnseAe0RSVM04hi5o8WKTM4xYUhRmwp32Jw&s" height="500px" width="500px" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Joy</h2>
+                  <p>“Adopt the pace of nature. ...
+                    “Gray skies are just clouds passing over.” — ....</p>
+                </div>
+              </div>
+            </div>            
+          </div>
+          <button><a href="{% url 'scientist' %}">Go to scientist</a></button>
+    </center>
+</body>
+</html>
